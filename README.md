@@ -1,1 +1,3 @@
-# configuration.nix
+# My NixOS Configuration Files
+
+https://nixos.org/
