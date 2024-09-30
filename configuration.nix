@@ -103,6 +103,7 @@
   environment.systemPackages = with pkgs; [
     vim # Note: the Nano editor is also installed by default.
     git gh # Git and Github packages
+    tmux
     wget
   ];
 
