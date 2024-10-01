@@ -25,6 +25,9 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+  # NOTE: Added this line to try to fix the issue where the wi-fi drops.
+  # I'm not exactly sure if this helps or not.
+  networking.networkmanager.wifi.powersave = false;
 
   # Set your time zone.
   time.timeZone = "America/Los_Angeles";
@@ -104,6 +107,7 @@
     vim # Note: the Nano editor is also installed by default.
     git gh # Git and Github packages
     tmux
+    gcc
     wget
   ];
 
