@@ -25,9 +25,10 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+
   # NOTE: Added this line to try to fix the issue where the wi-fi drops.
-  # I'm not exactly sure if this helps or not.
-  networking.networkmanager.wifi.powersave = false;
+  # UPDATE: This line does not fix the issue; wi-fi still dropping randomly.
+  # networking.networkmanager.wifi.powersave = false;
 
   # Set your time zone.
   time.timeZone = "America/Los_Angeles";
